@@ -1,8 +1,8 @@
 SET(CMAKE_SYSTEM_NAME Generic)
 
 # specify the cross compiler
-SET(CMAKE_C_COMPILER arm-elf-eabi-gcc)
-SET(CMAKE_CXX_COMPILER arm-elf-eabi-g++)
+SET(CMAKE_C_COMPILER mingw-gcc)
+SET(CMAKE_CXX_COMPILER mingw-g++)
 
 # use this if CMAKE complains about '-rdynamic'
 SET(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)

@@ -12,7 +12,7 @@ CMakeFiles/
 !cross-toolchain.cmake
 Makefile
 *.a
-build/
+build*
 Testing/
 coverage.info
 tests/tests

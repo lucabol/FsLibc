@@ -29,5 +29,5 @@ SUITE(AssertEnabled)
 
 extern "C" void __fslc_assert_fail(const char *expr, const char *file, unsigned int line, const char *)
 {
-    throw UnitTest::AssertException(expr, file, line);
+    throw UnitTest::AssertException();
 }
